@@ -71,12 +71,6 @@ Bug fixes should go in the latest version - no need to bump it. New features or 
 
 ___
 
-## Currently known issues
-
-Bootstrap 4 themes (v0.4) doesn't add borders and background colors to code. These styles have been removed from the Bootstrap 4 theme. Perhaps Bootstrap 4 expects [highlight.js](https://highlightjs.org/) instead of Google Code Prettify.
-
-___
-
 ## License
 
 [MiT License](https://github.com/fu-sen/strapdown/blob/main/LICENSE)
