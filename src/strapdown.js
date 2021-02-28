@@ -91,9 +91,9 @@
 
   // Insert navbar if there's none
   var newNode = document.createElement('nav');
-  newNode.className = 'navbar navbar-default navbar-fixed-top';
+  newNode.className = 'navbar navbar-expand-lg fixed-top navbar-dark bg-primary';
   if (!navbarEl && titleEl) {
-    newNode.innerHTML = '<div class="container"> <div class="navbar-header"> <div id="headline" class="navbar-brand"> </div> </div> </div>';
+    newNode.innerHTML = '<div class="container"> <div id="headline" class="navbar-brand"> </div> </div>';
     document.body.insertBefore(newNode, document.body.firstChild);
     var title = titleEl.innerHTML;
     var headlineEl = document.getElementById('headline');
