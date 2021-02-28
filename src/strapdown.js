@@ -47,7 +47,7 @@
   // Use <meta> viewport so that Bootstrap is actually responsive on mobile
   var metaEl = document.createElement('meta');
   metaEl.name = 'viewport';
-  metaEl.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0';
+  metaEl.content = 'width=device-width, initial-scale=1';
   if (document.head.firstChild)
     document.head.insertBefore(metaEl, document.head.firstChild);
   else
