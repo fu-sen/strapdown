@@ -85,7 +85,7 @@
   var markdown = markdownEl.textContent || markdownEl.innerText;
 
   var newNode = document.createElement('main');
-  newNode.className = 'container-fluid';
+  newNode.className = 'container';
   newNode.id = 'content';
   document.body.replaceChild(newNode, markdownEl);
 
