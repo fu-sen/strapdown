@@ -99,3 +99,4 @@ li.L9 { background: #eee }
 
 /* Add v0.4 (Bootstrap 4 themes) */
 pre { padding: 9.5px; background-color: #f5f5f5; border: 1px solid #ccc }
+:not(pre) > code { padding: 2px 4px; background-color: #f5f5f5; border: 1px solid #ccc }
