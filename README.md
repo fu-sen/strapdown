@@ -37,6 +37,7 @@ I split the branch according to the version of Bootstrap themes
 The main changes from the original are:
 
 - Add theme (v0.2 only)
+- Add CSS (v0.4 only)
 - Updates in `vendor/` (Includes themes)
 - Change `nav` class in `strapdown.js`
 - Change `viewport` of `strapdown.js`
@@ -45,6 +46,21 @@ Bootstrap 3 is effectively this fork. Great job, @bhhaskin !:
 
 - <https://github.com/arturadib/strapdown/pull/51>
 - <https://github.com/OCG-labs/strapdown/tree/dev>
+
+___
+
+## Add CSS (v0.4)
+
+Bootstrap 4 has major changes to the CSS specification. I needed to add strapdown.css for this.
+
+The following is considered in Strapdown.js v0.4 (Same as v0.2 and v0.3). This is necessary because it inherits the style of Google Code Prettify:
+
+- `<pre><code>`
+- `<code>`
+
+The following is not taken into consideration. You can apply Custom CSS if necessary.
+
+- `<blockquote>` (Changed it to use `class="blockquote"` )
 
 ___
 
