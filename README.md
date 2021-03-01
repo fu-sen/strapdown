@@ -30,7 +30,7 @@ I split the branch according to the version of Bootstrap themes
 
 |Themes     |Version|Source branch|
 |-----------|:-----:|:-----------:|
-|Bootstrap 4| v0.4  | main        |
+|Bootstrap 4| v0.4  | master      |
 |Bootstrap 3| v0.3  | bootstrap3  |
 |Bootstrap 2| v0.2  | bootstrap2  |
 
