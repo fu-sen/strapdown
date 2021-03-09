@@ -9,7 +9,7 @@ For more, please see:
 - https://strapdown.js.balloon.net.eu.org/3 - Bootstrap 3 themes
 - https://strapdown.js.balloon.net.eu.org/2 - Bootstrap 2 themes
 
-Tip: The original Strapdown.js is a **Bootstrap 2 theme**
+Tip: The original Strapdown.js is a **Bootstrap 2 themes**
 
 ___
 
@@ -40,7 +40,7 @@ The main changes from the original are:
 
 - Add theme (v0.2 only)
 - Add CSS (v0.4 and v0.5)
-- Change padding-top `60px` to `90px` (Consideration of lux, v0.4 and v0.5)
+- Change padding-top `60px` to `90px` (Consideration of Lux theme, v0.4 and v0.5)
 - Updates in `vendor/` (Includes themes)
 - Change `nav` class in `strapdown.js`
 - Change `viewport` of `strapdown.js`
@@ -58,7 +58,7 @@ Bootstrap 4 has major changes to the CSS specification. I needed to add strapdow
 
 There was a large space above the text. This had to be changed, especially as a consideration for the Lux theme.
 
-The following is considered in Strapdown.js v0.4 (Same as v0.2 and v0.3). This is necessary because it inherits the style of Google Code Prettify:
+The following is considered in Strapdown.js v0.4 and v0.5 (To have the same design as v0.2 and v0.3). This is necessary because it inherits the style of Google Code Prettify:
 
 - `<pre><code>`
 - `<code>`
