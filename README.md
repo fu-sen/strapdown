@@ -38,6 +38,7 @@ The main changes from the original are:
 
 - Add theme (v0.2 only)
 - Add CSS (v0.4 only)
+- Change padding-top `60px` to `90px` (Consideration of lux, v0.4 only)
 - Updates in `vendor/` (Includes themes)
 - Change `nav` class in `strapdown.js`
 - Change `viewport` of `strapdown.js`
