@@ -50,9 +50,11 @@ Bootstrap 3 is effectively this fork. Great job, @bhhaskin !:
 
 ___
 
-## Add CSS (v0.4)
+## Add and change CSS (v0.4)
 
 Bootstrap 4 has major changes to the CSS specification. I needed to add strapdown.css for this.
+
+There was a large space above the text. This had to be changed, especially as a consideration for the Lux theme.
 
 The following is considered in Strapdown.js v0.4 (Same as v0.2 and v0.3). This is necessary because it inherits the style of Google Code Prettify:
 
