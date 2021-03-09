@@ -10,6 +10,8 @@ For more, please see:
 
 Tip: The original Strapdown.js is a **Bootstrap 2 theme**
 
+Bootstrap 5 is currently in beta. It's also Bootswatch. So I haven't linked that `index.html` .
+
 ___
 
 ## Original Project
@@ -28,17 +30,18 @@ ___
 
 I split the branch according to the version of Bootstrap themes
 
-|Themes     |Version|Source branch|
-|-----------|:-----:|:-----------:|
-|Bootstrap 4| v0.4  | main        |
-|Bootstrap 3| v0.3  | bootstrap3  |
-|Bootstrap 2| v0.2  | bootstrap2  |
+|Themes          |Version|Source branch|
+|----------------|:-----:|:-----------:|
+|Bootstrap 5 beta| v0.5  | main        |
+|Bootstrap 4     | v0.4  | bootstrap4  |
+|Bootstrap 3     | v0.3  | bootstrap3  |
+|Bootstrap 2     | v0.2  | bootstrap2  |
 
 The main changes from the original are:
 
 - Add theme (v0.2 only)
-- Add CSS (v0.4 only)
-- Change padding-top `60px` to `90px` (Consideration of lux, v0.4 only)
+- Add CSS (v0.4 and v0.5)
+- Change padding-top `60px` to `90px` (Consideration of lux, v0.4 and v0.5)
 - Updates in `vendor/` (Includes themes)
 - Change `nav` class in `strapdown.js`
 - Change `viewport` of `strapdown.js`
@@ -50,7 +53,7 @@ Bootstrap 3 is effectively this fork. Great job, @bhhaskin !:
 
 ___
 
-## Add and change CSS (v0.4)
+## Add and change CSS (v0.4 and v0.5)
 
 Bootstrap 4 has major changes to the CSS specification. I needed to add strapdown.css for this.
 
