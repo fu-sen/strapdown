@@ -123,6 +123,16 @@ e=/\bprettyprinted\b/,B=/pre|xmp/i,z=/^code$/i,v=/^(?:pre|code|xmp)$/i,g={};f()}
   var theme = markdownEl.getAttribute('theme') || 'bootstrap';
   theme = theme.toLowerCase();
 
+  // Get navbar color
+  var bg = markdownEl.getAttribute('navbar') || 'primary';
+  bg = bg.toLowerCase();
+  if ( bg == "primary" ) {
+    var navbar = " navbar-dark";
+  } else {
+    var navbar = " navbar-" + bg;
+  }
+  bg = " bg-" + bg;
+
   // Stylesheets
   var linkEl = document.createElement('link');
   linkEl.href = originBase + '/themes/'+theme+'.min.css';
@@ -148,7 +158,7 @@ e=/\bprettyprinted\b/,B=/pre|xmp/i,z=/^code$/i,v=/^(?:pre|code|xmp)$/i,g={};f()}
 
   // Insert navbar if there's none
   var newNode = document.createElement('nav');
-  newNode.className = 'navbar navbar-expand-lg fixed-top navbar-dark bg-primary';
+  newNode.className = 'navbar navbar-expand-lg fixed-top' + navbar + bg;
   if (!navbarEl && titleEl) {
     newNode.innerHTML = '<div class="container"> <div id="headline" class="navbar-brand"> </div> </div>';
     document.body.insertBefore(newNode, document.body.firstChild);
