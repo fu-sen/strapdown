@@ -123,6 +123,12 @@ e=/\bprettyprinted\b/,B=/pre|xmp/i,z=/^code$/i,v=/^(?:pre|code|xmp)$/i,g={};f()}
   var theme = markdownEl.getAttribute('theme') || 'bootstrap';
   theme = theme.toLowerCase();
 
+  // Navbar-inverse
+  var navbar = markdownEl.getAttribute('navbar') || '';
+  if ( navbar != '' ) {
+    navbar = " navbar-inverse";
+  }
+
   // Stylesheets
   var linkEl = document.createElement('link');
   linkEl.href = originBase + '/themes/'+theme+'.min.css';
@@ -148,7 +154,7 @@ e=/\bprettyprinted\b/,B=/pre|xmp/i,z=/^code$/i,v=/^(?:pre|code|xmp)$/i,g={};f()}
 
   // Insert navbar if there's none
   var newNode = document.createElement('nav');
-  newNode.className = 'navbar navbar-default navbar-fixed-top';
+  newNode.className = 'navbar navbar-default navbar-fixed-top' + navbar;
   if (!navbarEl && titleEl) {
     newNode.innerHTML = '<div class="container"> <div class="navbar-header"> <div id="headline" class="navbar-brand"> </div> </div> </div>';
     document.body.insertBefore(newNode, document.body.firstChild);
