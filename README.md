@@ -40,6 +40,7 @@ The main changes from the original are:
 
 - Add theme (v0.2 only)
 - Add CSS (v0.4 and v0.5)
+- Add aet navbar color (v0.3, v0.4 and v0.5)
 - Change padding-top `60px` to `90px` (Consideration of Lux theme, v0.4 and v0.5)
 - Updates in `vendor/` (Includes themes)
 - Change `nav` class in `strapdown.js`
@@ -66,6 +67,27 @@ The following is considered in Strapdown.js v0.4 and v0.5 (To have the same desi
 The following is not taken into consideration. You can apply Custom CSS if necessary.
 
 - `<blockquote>` (Changed it to use `class="blockquote"` )
+
+___
+
+## Set navbar color (v0.3, v0.4 and v0.5)
+
+You can change the color of the navbar after Bootstrap3. I made it possible to specify this with `navbar`.
+
+### v0.4 and v0.5
+
+The types of navbar color are `primary`, `dark` and `light`. Default is `primary`:
+```
+<textarea theme="yeti" navbar="light">
+```
+
+### v0.3:
+
+If navbar has a value, it works inverse:
+
+```
+<textarea theme="yeti" navbar="inverse">
+```
 
 ___
 
