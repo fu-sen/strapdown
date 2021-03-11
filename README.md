@@ -40,7 +40,7 @@ The main changes from the original are:
 
 - Add theme (v0.2 only)
 - Add CSS (v0.4 and v0.5)
-- Add aet navbar color (v0.3, v0.4 and v0.5)
+- Add set navbar color (v0.3, v0.4 and v0.5)
 - Change padding-top `60px` to `90px` (Consideration of Lux theme, v0.4 and v0.5)
 - Change `nav` class in `strapdown.js`
 - Change `viewport` of `strapdown.js`
