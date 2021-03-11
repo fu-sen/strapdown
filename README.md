@@ -42,9 +42,9 @@ The main changes from the original are:
 - Add CSS (v0.4 and v0.5)
 - Add aet navbar color (v0.3, v0.4 and v0.5)
 - Change padding-top `60px` to `90px` (Consideration of Lux theme, v0.4 and v0.5)
-- Updates in `vendor/` (Includes themes)
 - Change `nav` class in `strapdown.js`
 - Change `viewport` of `strapdown.js`
+- Updated [Marked](https://github.com/markedjs/marked), [Google Code Prettify](https://github.com/googlearchive/code-prettify) and [Bootswatch themes](https://bootswatch.com/)
 
 Bootstrap 3 is effectively this fork. Great job, @bhhaskin !:
 
