@@ -4,7 +4,7 @@
 
 For more, please see:
 
-- https://strapdown.js.balloon.net.eu.org/5/ - Bootstrap 5 beta themes
+- https://strapdown.js.balloon.net.eu.org/5/ - Bootstrap 5 themes
 - https://strapdown.js.balloon.net.eu.org/4/ - Bootstrap 4 themes
 - https://strapdown.js.balloon.net.eu.org/3/ - Bootstrap 3 themes
 - https://strapdown.js.balloon.net.eu.org/2/ - Bootstrap 2 themes
@@ -29,12 +29,12 @@ ___
 
 I split the branch according to the version of Bootstrap themes
 
-|Themes          |Version|Source branch|
-|----------------|:-----:|:-----------:|
-|Bootstrap 5 beta| v0.5  | main        |
-|Bootstrap 4     | v0.4  | bootstrap4  |
-|Bootstrap 3     | v0.3  | bootstrap3  |
-|Bootstrap 2     | v0.2  | bootstrap2  |
+|Themes     |Version|Source branch|
+|-----------|:-----:|:-----------:|
+|Bootstrap 5| v0.5  | main        |
+|Bootstrap 4| v0.4  | bootstrap4  |
+|Bootstrap 3| v0.3  | bootstrap3  |
+|Bootstrap 2| v0.2  | bootstrap2  |
 
 The main changes from the original are:
 
