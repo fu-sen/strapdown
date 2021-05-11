@@ -116,7 +116,7 @@ ___
 
 - Remove Google Code Prettify  
 It's [an archive project](https://github.com/googlearchive/code-prettify). Deletion prevents unintended `<code>` conversion. You can also select and use [highlight.js](https://github.com/highlightjs/highlight.js) etc.  
-I don't want to add extra features to Strapdown.js to reduce the load in many environments. This should have reduced functionality on the contrary.
+I don't want to add extra features to Strapdown.js to reduce the load in many environments. Instead, I had to think about removing the feature.
 
 ___
 
