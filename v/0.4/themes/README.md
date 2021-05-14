@@ -2,6 +2,6 @@
 
 These themes are all from:
 
-+ http://bootswatch.com
++ https://bootswatch.com/4/
 
 See LICENSE file.
