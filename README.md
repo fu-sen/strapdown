@@ -44,7 +44,7 @@ The main changes from the original are:
 - Change padding-top `60px` to `90px` (Consideration of Lux theme, v0.4 and v0.5)
 - Change `nav` class in `strapdown.js`
 - Change `viewport` of `strapdown.js`
-- Updated [Marked](https://github.com/markedjs/marked), [Google Code Prettify](https://github.com/googlearchive/code-prettify) and [Bootswatch themes](https://bootswatch.com/)
+- Updated [Marked v3](https://github.com/markedjs/marked), [Google Code Prettify](https://github.com/googlearchive/code-prettify) and [Bootswatch themes](https://bootswatch.com/)
 
 Bootstrap 3 is effectively this fork. Great job, @bhhaskin !:
 
@@ -88,6 +88,13 @@ If navbar has a value, it works inverse:
 ```
 <textarea theme="yeti" navbar="inverse">
 ```
+
+___
+
+## Marked v4
+
+I have confirmed that Marked v4, updated in November 2021, does not work. \
+Therefore, this Strapdown.js maintains **Marked v3.0.8**.
 
 ___
 
