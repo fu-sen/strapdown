@@ -113,7 +113,7 @@
   //
 
   // Generate Markdown
-  var html = marked(markdown);
+  var html = marked.parse(markdown);
   document.getElementById('content').innerHTML = html;
 
   // Prettify
