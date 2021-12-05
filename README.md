@@ -4,10 +4,10 @@
 
 For more, please see:
 
-- https://strapdown.js.balloon.net.eu.org/5/ - Bootstrap 5 themes
-- https://strapdown.js.balloon.net.eu.org/4/ - Bootstrap 4 themes
-- https://strapdown.js.balloon.net.eu.org/3/ - Bootstrap 3 themes
-- https://strapdown.js.balloon.net.eu.org/2/ - Bootstrap 2 themes
+- https://strapdown-js.balloon.net.eu.org/5/ - Bootstrap 5 themes
+- https://strapdown-js.balloon.net.eu.org/4/ - Bootstrap 4 themes
+- https://strapdown-js.balloon.net.eu.org/3/ - Bootstrap 3 themes
+- https://strapdown-js.balloon.net.eu.org/2/ - Bootstrap 2 themes
 
 Tip: The original Strapdown.js is a **Bootstrap 2 themes**
 
