@@ -1,6 +1,6 @@
 ## Strapdown.js
 
-[Strapdown.js](http://strapdownjs.com/) makes it embarrassingly simple to create elegant Markdown documents. No server-side compilation required. 
+Strapdown.js makes it embarrassingly simple to create elegant Markdown documents. No server-side compilation required. 
 
 For more, please see:
 
@@ -17,7 +17,8 @@ ___
 
 Oops! This is a forked project. The original README.md can be found here:
 
-[README.original.md](https://github.com/fu-sen/strapdown/blob/main/README.original.md)
+[README.original.md](https://github.com/fu-sen/strapdown/blob/main/README.original.md)\
+However, currently `strapdown.js` doesn't seem to work.
 
 See original project if needed:
 
