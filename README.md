@@ -4,7 +4,7 @@ Strapdown.js makes it embarrassingly simple to create elegant Markdown documents
 
 For more, please see:
 
-+ http://strapdownjs.com
++ `http://strapdownjs.com`
 
 ## Contributor guide
 
