@@ -33,7 +33,9 @@ Therefore this tag does not currently work.
 
 If you want to keep the original version you can use it via [jsDelivr](https://www.jsdelivr.com/):
 
+```
 <script src="https://cdn.jsdelivr.net/gh/arturadib/strapdown@gh-pages/v/0.2/strapdown.min.js"></script>
+```
 
 ___
 
