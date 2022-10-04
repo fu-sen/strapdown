@@ -82,7 +82,7 @@ The types of navbar color are `primary`, `dark` and `light`. Default is `primary
 <textarea theme="yeti" navbar="light">
 ```
 
-### v0.3:
+### v0.3
 
 If navbar has a value, it works inverse:
 
