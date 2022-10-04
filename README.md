@@ -24,6 +24,17 @@ See original project if needed:
 
 <https://github.com/arturadib/strapdown>
 
+The domain `strapdownjs.com` used in the original version does not seem to work anymore.\
+Therefore this tag does not currently work.
+
+```
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+```
+
+If you want to keep the original version you can use it via [jsDelivr](https://www.jsdelivr.com/):
+
+<script src="https://cdn.jsdelivr.net/gh/arturadib/strapdown@gh-pages/v/0.2/strapdown.min.js"></script>
+
 ___
 
 ## Version and Branch
@@ -96,7 +107,7 @@ ___
 
 Now we can apply the CDN using [jsDelivr](https://www.jsdelivr.com/). I have prepared different projects for the CDN:
 
-- <https://github.com/fu-sen/strapdown.js>
+<https://github.com/fu-sen/strapdown.js>
 
 ___
 
