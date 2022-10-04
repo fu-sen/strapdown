@@ -25,7 +25,7 @@ See original project if needed:
 <https://github.com/arturadib/strapdown>
 
 The domain `strapdownjs.com` used in the original version does not seem to work anymore.\
-Therefore this tag does not currently work.
+Therefore this tag does not currently work:
 
 ```
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
