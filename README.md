@@ -1,3 +1,7 @@
+Google Code Prettify used in Strapdown.js is an archive project and Marked is no longer applicable from v6.0.0. So I decided that Strapdown.js should be archived.
+
+___
+
 ## Strapdown.js
 
 Strapdown.js makes it embarrassingly simple to create elegant Markdown documents. No server-side compilation required. 
@@ -128,7 +132,7 @@ ___
 
 ## Consideration
 
-- Remove Google Code Prettify  
+- Remove Google Code Prettify
 It's [an archive project](https://github.com/googlearchive/code-prettify). Deletion prevents unintended `<code>` conversion. You can also select and use [highlight.js](https://github.com/highlightjs/highlight.js) etc.  
 I don't want to add extra features to Strapdown.js to reduce the load in many environments. Instead, I had to think about removing the feature.
 
