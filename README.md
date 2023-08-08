@@ -1,7 +1,3 @@
-Google Code Prettify used in Strapdown.js is an archive project and Marked is no longer applicable from v6.0.0. So I decided that Strapdown.js should be archived.
-
-___
-
 ## Strapdown.js
 
 Strapdown.js makes it embarrassingly simple to create elegant Markdown documents. No server-side compilation required. 
