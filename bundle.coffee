@@ -19,7 +19,7 @@ else
 
 # JS
 bundle = ''
-bundle += (cat 'vendor/marked.min.js') + '\n'
+bundle += (cat 'vendor/marked.umd.js') + '\n'
 bundle += (cat 'vendor/prettify.min.js') + '\n'
 bundle += (cat 'src/strapdown.js') + '\n'
 bundle.to outDir + '/strapdown.js'
